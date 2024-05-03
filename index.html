@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Lab4</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<div class="first">
+		<h1 class="title1">Task 1</h1>	
+		<button type="button" class="btn">Fetch users</button>
+		<input type="number" class="user-limit" min="1" placeholder="Enter number of users" />
+		<ul class="user-list"></ul>
+	</div>
+	
+
+
+	<div class="root">
+		
+		<div class="section">
+			<div class="container">
+				<div class="window">
+					<div class="top">
+						<div>
+							<h1 class="title">Task 2</h1>
+							<p class="text"></p>
+						</div>
+						<div class="modal__buttons">
+							<button class="btn" id="allButton">All</button>
+							<button class="btn" id="completedButton">Completed</button>
+							<button class="btn" id="notCompletedButton">Not Completed</button>
+						</div>
+					</div>
+					<div class="form">
+						<div>
+							<label class="form__label" for="taskTitle">Task Title</label><br>
+							<input class="form__input" type="text" id="taskTitle" name="taskTitle">
+						</div>
+						<div class="div">
+							<h2 class="form__label">At what stage</h2>
+							<form class="form__main" id="taskForm">
+								<input class="form__radio" type="radio" name="taskStatus" value="active" id="active">
+								<label for="active">Active</label>
+								<br>
+								<input class="form__radio" type="radio" name="taskStatus" value="completed" id="completed">
+								<label for="completed">Completed</label>
+								<br>
+								<button class="form__btn" type="submit">Add task</button>
+							</form>
+						</div>
+						
+			
+					</div>
+				</div>
+				<div class="processes__contend">
+					<ul class="processes__list"></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+	</body>
+</html>
+
+
